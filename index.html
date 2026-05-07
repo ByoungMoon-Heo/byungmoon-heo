@@ -1,0 +1,171 @@
+---
+layout: default
+title: Home
+---
+<!-- ========== BIO ========== -->
+<div class="docs-section" id="bio">
+  <h4>About</h4>
+<p>I am a PhD student at <a href="https://www.skku.edu/skku/index.do">Sungkyunkwan University</a>, advised by <a href="https://sites.google.com/view/skku-milab">Prof. Jaekwang Kim</a>. 
+  My research focuses on recommender systems, particularly sequential recommendation and personalized modeling.
+  I also work as an IT staff member at the Korea Sports Promotion Foundation.</p>
+<p>Please feel free to contact me via email for collaboration opportunities.</p>
+</div>
+
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h4>Publications</h4>
+
+  <!-- /<p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/> -->
+  <sup>‡</sup> indicates equal contribution.
+  </p>
+
+  <ul class="tab-nav">
+    <!-- <li><div class="button active" data-ref="#papers-selected">Selected</div></li> -->
+    <li><div class="button active" data-ref="#papers-all">All</div></li>
+  </ul>
+
+  <div class="tab-content">
+
+    <div class="tab-pane active" id="papers-all">
+      {% for paper in site.data.publications.papers %}
+      <div class="paper">
+        <div class="row" style="display: flex;align-items: center;">
+          <div class="four columns">
+            <div class="figure">
+              <img src="{{ paper.image }}" width="100%">
+            </div>
+          </div>
+          <div class="eight columns">
+            <p class="title"><b>{{ paper.title }}</b></p>
+            <p><sub>{{ paper.authors }}</sub></p>
+            <p><sub><i>{{ paper.venue }}</sub></i></p>
+            <div class="paper-buttons">
+              {% if paper.project %}
+                <a class="button" href="{{ paper.project }}" target="_blank">Project</a>
+              {% endif %}
+
+              {% if paper.paper_pdf %}
+                <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+              {% endif %}
+
+              {% if paper.slides %}
+                <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+              {% endif %}
+
+              {% if paper.poster %}
+                <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+              {% endif %}
+
+              {% if paper.video %}
+                <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+              {% endif %}
+
+              {% if paper.code %}
+                <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+              {% endif %}
+
+              {% if paper.data %}
+                <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+              {% endif %}
+            </div>
+          </div>
+          </div>
+        </div>
+      {% endfor %}
+  </div>
+</div>
+
+<!-- ========== Education ========== -->
+<div class="docs-section" id="education">
+  <h4>Education</h4>
+  <div class="paper">
+    <p class="title">
+      <b
+        >Sungkyunkwan University (SKKU)<b
+          style="float: right"
+          >Sep. 2024 - Present</b
+        ></b
+      >
+    </p>
+    <p>PhD Student in Applied Artificial Intelligence</p>
+  </div>
+  <div class="paper">
+    <p class="title">
+      <b
+        >Yonsei University<b
+          style="float: right"
+          >Mar. 2021 - Feb. 2023</b
+        ></b
+      >
+    </p>
+    <p>MS in Artificial Intelligence </p>
+  </div>
+</div>
+
+<!-- ========== Experience ========== -->
+<div class="docs-section" id="experience">
+  <h4>Experience</h4>
+  <div class="paper">
+    <p class="title">
+      <a href="https://research.adobe.com/" target="_blank">Adobe Research </a
+      >(San Jose, CA)<b style="float: right">Apr. 2026 - Jul. 2026</b>
+    </p>
+    <p>
+      <i>Research Scientist/Engineer Intern</i>
+      <span style="float: right">Host: Dr. Long Mai</span>
+    </p>
+  </div>
+  <div class="paper">
+    <p class="title">
+      <a href="https://plumed.kr/" target="_blank">PLUME.D </a>(Seoul, South
+      Korea)
+      <b style="float: right">Jan. 2022 - Jan. 2023</b>
+    </p>
+    <p><i>Chief Technology Officer and Co-founder</i></p>
+    <ul style="margin: 4px 0; padding-left: 15px; line-height: 1.55">
+      <li style="margin-bottom: 6px">
+        Led the development of AvaKit, the company's core product, securing
+        approx. USD 700K in funding.
+      </li>
+      <li style="margin-bottom: 6px">
+        <strong>1st place</strong> (of 876 teams),
+        <em>11th Chung Ju-Young Startup Competition</em> (largest private
+        startup contest in Korea).
+      </li>
+      <li>
+        <strong>2nd place</strong> (of 5,420 teams),
+        <em>K-Startup Grand Challenge 2022</em> (largest government startup
+        contest in Korea).
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- ========== Academic Services ========== -->
+<div class="docs-section" id="services">
+  <h4>Academic Services</h4>
+  <div class="paper">
+    <p class="title"><b>Reviewer</b>, NeurIPS, ICML, CVPR, ECCV, ACL, TMLR</p>
+  </div>
+</div>
+
+<!-- ========== Honors & Awards ========== -->
+<div class="docs-section" id="honors">
+  <h4>Honors & Awards</h4>
+  <div class="paper">
+    <p class="title">
+      <b>Dean's List</b>, KAIST College of Engineering (2020F)<b
+        style="float: right"
+        >Jan. 2021</b
+      >
+    </p>
+  </div>
+  <div class="paper">
+    <p class="title">
+      <b>Recipient</b>, National Science and Engineering Undergraduate
+      Scholarship<b style="float: right">May. 2020</b>
+    </p>
+  </div>
+</div>  
+  
+</div> 
