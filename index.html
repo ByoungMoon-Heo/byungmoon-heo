@@ -22,9 +22,11 @@ title: Home
   </ul>
 -->
   <div class="tab-content">
+    <!--
     <div class="tab-pane active" id="papers-selected">
       {% assign selected_papers = site.data.publications.papers | where:
       "selected", "y" %} {% for paper in selected_papers %}
+    -->
       <div class="paper">
         <p class="title"><b>{{ paper.title }}</b></p>
         <p>{{ paper.authors }}</p>
@@ -57,8 +59,8 @@ title: Home
         </div>
       </div>
       {% endfor %}
-    </div>
-
+   <!-- </div> -->
+<!-- 
     <div class="tab-pane" id="papers-all">
       {% assign papers_by_year = site.data.publications.papers | group_by: "year" | sort: "name" | reverse %}
       {% for year_group in papers_by_year %}
@@ -118,7 +120,7 @@ title: Home
       </div>
       {% endfor %}
       {% endfor %}
-    </div>
+    </div> -->
   </div>
 </div>
 
