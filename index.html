@@ -13,14 +13,14 @@ title: Home
 
 <div class="docs-section" id="publications">
   <h4>Publications</h4>
-<!-- 
+{% comment %}
   <ul class="tab-nav">
     <li>
       <div class="button active" data-ref="#papers-selected">Selected</div>
     </li>
     <li><div class="button" data-ref="#papers-all">All</div></li>
   </ul>
--->
+{% endcomment %}
   <div class="tab-content">    
     <div class="tab-pane active" id="papers-selected">
       {% assign selected_papers = site.data.publications.papers | where:
@@ -59,7 +59,7 @@ title: Home
       </div>
       {% endfor %}
    </div>
-<!-- 
+{% comment %} 
     <div class="tab-pane" id="papers-all">
       {% assign papers_by_year = site.data.publications.papers | group_by: "year" | sort: "name" | reverse %}
       {% for year_group in papers_by_year %}
@@ -119,7 +119,8 @@ title: Home
       </div>
       {% endfor %}
       {% endfor %}
-    </div> -->
+    </div> 
+    {% endcomment %}
   </div>
 </div>
 
