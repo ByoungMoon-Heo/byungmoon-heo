@@ -35,14 +35,14 @@ papers:
 
   - title: "FCRLLM: Aligning LLM with Collaborative Filtering for Long-tailed Sequential Recommendation"
     authors: "<b>Byungmoon Heo</b>, Namjun Lee, Seonah Kim, Jaekwang Kim"
-    # paper_pdf: "https://openreview.net/forum?id=RQutkn4V9I"
+    paper_pdf: "https://dl.acm.org/doi/pdf/10.1145/3774904.3792565"
     venue: "WWW 2026"
     selected: y
     # image: "/assets/publications/sync-4drf_preview.jpg"
 
   - title: "WaveRec: Is Wavelet Transform a Better Alternative to Fourier Transform for Sequential Recommendation?"
     authors: "<b>Byungmoon Heo</b>, Jaekwang Kim"
-    # paper_pdf: "https://arxiv.org/abs/2310.13356.pdf"
+    paper_pdf: "https://dl.acm.org/doi/pdf/10.1145/3731120.3744621"
     # project: "https://seoha-kim.github.io/sync-nerf"
     # code: "https://github.com/seoha-kim/Sync-NeRF"
     # data: "http://drive.google.com/drive/folders/1wvLtucVrmFf7fj-kWr-HMk3boaI46cIX?usp=sharing"
