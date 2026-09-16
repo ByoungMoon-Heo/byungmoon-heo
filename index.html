@@ -34,6 +34,9 @@ title: Home
         {% if paper.venue2 %}
         <p><i>{{ paper.venue2 }}</i></p>
         {% endif %}
+        {% if paper.presentation %}
+        <p class="paper-presentation">{{ paper.presentation }}</p>
+        {% endif %}
         <div class="paper-buttons">
           {% if paper.paper_pdf %}
           <a class="button" href="{{ paper.paper_pdf }}" target="_blank"
