@@ -53,8 +53,8 @@ h4 {
   text-align: center; }
 .paper-presentation {
   color: #ff0a33;
-  /* font-style: normal; */
-  /* font-weight: 700; */
+  font-style: normal;
+  font-weight: 700;
 }
 
 /*  ================ Project styling  ================ */
