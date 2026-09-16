@@ -51,6 +51,12 @@ h4 {
   color: rgba(0, 0, 0, 0.60); }
 .image {
   text-align: center; }
+.paper-presentation {
+  color: #ff0a33;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: -10px;
+}
 
 /*  ================ Project styling  ================ */
 .project-container {
