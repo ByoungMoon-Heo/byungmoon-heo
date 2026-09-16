@@ -30,9 +30,9 @@ title: Home
       <div class="paper">
         <p class="title"><b>{{ paper.title }}</b></p>
         <p><sub>{{ paper.authors }}</sub></p>
-        <p><sub><i>{{ paper.venue }}</sub></i>
+        <p><sub><i>{{ paper.venue }}</i></sub>
         {% if paper.presentation %}
-        <p class="paper-presentation"><sub>{{ paper.presentation }}</sub></p>
+        <span class="paper-presentation"><sub>{{ paper.presentation }}</sub></span>
         {% endif %}
         </p>
         {% if paper.venue2 %}
