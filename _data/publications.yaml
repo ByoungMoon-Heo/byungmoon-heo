@@ -36,6 +36,7 @@ papers:
   - title: "FCRLLM: Aligning LLM with Collaborative Filtering for Long-tailed Sequential Recommendation"
     authors: "<b>Byungmoon Heo</b>, Namjun Lee, Seonah Kim, Jaekwang Kim"
     paper_pdf: "https://dl.acm.org/doi/pdf/10.1145/3774904.3792565"
+    presentation: "Oral Presentation"
     code: "https://github.com/Byungmoon-Heo/FCRLLM"
     venue: "WWW 2026"
     selected: y
