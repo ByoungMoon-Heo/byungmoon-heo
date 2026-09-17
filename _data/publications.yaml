@@ -26,7 +26,7 @@ papers:
 
   - title: "SGTRec: Integrating Spectral Encoding with Graph Neural Networks and Transformers for Recommendation"
     authors: "Sichan Oh, <b>Byungmoon Heo</b>, Namjun Lee, Seonah Kim, Jaekwang Kim"
-    # paper_pdf: "https://arxiv.org/abs/2404.03613"
+    paper_pdf: "https://link.springer.com/content/pdf/10.1007/978-981-92-1300-9_17.pdf"
     # project: "https://JeongminB.github.io/e-d3dgs"
     # code: "https://github.com/JeongminB/E-D3DGS"
     venue: "PAKDD 2026"
